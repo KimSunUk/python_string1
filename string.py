@@ -1,15 +1,14 @@
 # python exercise #1 : data manipulation
 
-a = input('aaa')
+a = input()
 b = input()
-
 # a와 b의 길이를 출력
 
-print(a.len())
-print("Hello")
+print(len(a))
+print(len(b))
 
 # a와 b의 왼쪽, 오른쪽에 있는 빈칸 제거
-
+a.strip()
 
 
 # a와 b를 대문자로 변경

@@ -1,3 +1,4 @@
+import string
 # python exercise #1 : data manipulation
 
 a = input()
@@ -8,7 +9,8 @@ print(len(a))
 print(len(b))
 
 # a와 b의 왼쪽, 오른쪽에 있는 빈칸 제거
-a.strip()
+print(strip(a))
+print(strip(b))
 
 
 # a와 b를 대문자로 변경
